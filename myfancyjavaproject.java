@@ -1,4 +1,4 @@
-class OverloadDemo
+class Shape
 {
     void area(float x)
     {
@@ -14,11 +14,11 @@ class OverloadDemo
         System.out.println("the area of the circle is "+z+" sq units");
     }
 }
-class Overload 
+class Find_shape
 {
      public static void main(String args[]) 
 	{
-	   OverloadDemo ob = new OverloadDemo();
+	   Shape ob = new Shape();
 	   ob.area(5);
 	   ob.area(11,12);
 	   ob.area(2.5);
